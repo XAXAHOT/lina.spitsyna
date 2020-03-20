@@ -1,0 +1,292 @@
+body { margin: 0;}
+.wrapper {
+ width: 920px; /*çàäàåì ôèêñèðîâàííóþ øèðèíó êîíòåíòó*/
+ margin: 0 auto; /*âûðàâíèâàåì áëîê ïî öåíòðó ñòðàíèöû*/
+}
+/*TOP NAVIGATION*/
+.bound-top-navigation {
+ background: #f2f2f2;
+}
+#top-navigation {
+ height: 28px;
+ background: #f2f2f2;
+ font-size: 12px;
+}
+/*LOGO AND MAIN MENU*/
+.logo-main-menu {
+ height: 102px;
+ background: #FFFFFF;
+}
+#logo {
+ width: 280px;
+ height: 102px;
+ background: #92b800;
+}
+/*ADVERTISEMENT AND CONTENT*/
+/*ADVERTISEMENT*/
+.bound-advertisement-content {
+ background: #f2f2f2;
+align-content: :left;
+}
+#advertisement {
+ width: 980px;
+ height: 335px;
+ background: #92b800;
+}
+/*CONTENT*/
+#content {
+ height: 400px;
+ background: aquamarine;
+ clear: both;
+}
+#block-news {
+ width: 320px;
+ height: 400px;
+ background: #f2f2f2;
+ float: left; /*äåëàåì áëîê ïëàâóþùèì è ïðèæèìàåì âëåâî, ñëåäóþùèé ÏËÀÂÓÞÙÈÉ
+áëîê ïðèæìåòñÿ ê íåìó*/
+}
+#block-offers {
+ width: 600px;
+ height: 400px;
+ background: #f2f2f2;
+ float: left; /*íåîáõîäèìî óêàçàòü, òàê êàê ýòîò áëîê ÿâëÿåòñÿ ñëåäóþùèì çà ïëàâàþùèì (èíà÷å îí ïðèæìåòñÿ ê ðîäèòåëüñêîìó ýëåìåíòó)*/
+}
+/*FOOTER*/
+.bound-footer {
+ background: #e6e6e6;
+}
+#footer {
+ height: 296px;
+}
+#block-subscription {
+ width: 320px;
+ height: 296px;
+ background: #e5e5e5;
+ float: left;
+}
+#block-why-us {
+ width: 200px;
+ height: 296px;
+ background: #e5e5e5;
+ float: left;
+}
+#block-follow-us {
+ width: 200px;
+ height: 296px;
+ background: #e5e5e5;
+ float: left;
+}
+#block-address {
+ width: 200px;
+ height: 296px;
+ background: #e5e5e5;
+ float: left;
+}
+.bound-below-footer {
+ height: 110px;
+ background: #454545;
+}
+.bound-top-navigation {
+ background: #f2f2f2;
+}
+#top-navigation {
+ height: 14px; /*уменьшили высоту блока, на суммарный размер отступов*/
+ background: #f2f2f2;
+ padding: 7px 0; /*Добавляем отступы сверху и снизу, убираем отступы справа и
+слева*/
+ font-size: 12px;
+ color: #060606;
+}
+#block-date {
+ float: left; /*Блок с датой размещаем слева*/
+}
+#block-nav-menu {
+ float: right; /*Блок с меню размещаем справа*/
+}
+#block-nav-menu ul{
+margin: 0;
+padding: 0;
+}
+#block-nav-menu ul li{
+ float: left;
+ list-style: none;
+ padding: 0 7px;
+ border-right: solid 1px #060606; /*создаем границу справа*/
+}
+#block-nav-menu li:last-child{
+ border-right: none; /*Убираем границу справа у последнего элемента*/
+}
+/*LOGO AND MAIN MENU*/
+logo-main-menu {
+ width: 980px;
+ padding-top: 19px; /*Зададим отступ сверху, чтобы логотип размещался по центру
+блока*/
+ height: 83px; /*соответственно уменьшим высоту блока (так как добавили отступ)*/
+ background: #fff;
+}
+#logo {
+ margin-left: 30px;
+ width: 205px;
+ background: #92b800;
+ float: left;
+}
+#main-menu {
+ float: right;
+ height: 83px;
+}
+#main-menu ul {
+ margin-top: 39px; /*необходимо добавить отступ сверху, чтобы прижать меню к
+нижнему блоку*/
+ overflow: hidden;
+ padding: 0;
+ margin-bottom: 0;
+}
+#main-menu ul li{
+ float: left;
+ list-style: none;
+ background: #f2f2f2; /*задаем серый цвет для всех элементов списка*/
+ padding: 24px 32px 21px 32px; /*добавляем внутренние отступы, как показано на
+рисунке Рисунок 7*/
+ margin-right: 1px;
+ /*Добавляем закругления на углах блока*/
+ border-top-left-radius: 20px;
+ border-top-right-radius: 20px;
+}
+#main-menu ul li:hover,
+#main-menu ul li.active-element {
+ background: #92b800;
+ color: #fff;
+}
+/*NEWS*/
+#block-news {
+ width: 320px;
+ height: 400px;
+ float: left; /*делаем блок плавающим и прижимаем влево, следующий ПЛАВУЮЩИЙ
+блок прижмется к нему*/
+}
+#block-news .news {
+ overflow: hidden;
+
+ margin-top: 15px;
+}
+#block-news .news-image {
+ float: left;
+ width: 90px;
+ height: 90px;
+ margin-right: 20px;
+}
+#block-news .news-info {
+ float: left;
+ width: 175px;
+ height: 90px;
+}
+#block-news .news-date {
+ font-size: 14px;
+ color: #000700;
+ margin-top: 8px;
+}
+#block-news .news-content {
+ font-size: 14px;
+ color: #84807d;
+ margin-top: 8px;
+}
+.button {
+ padding: 8px 25px 10px 28px;
+ height: 17px;
+ float: right;
+ font-weight: bold;
+ font-size: 14px;
+ background: #fff 0 0 repeat-x;
+ border-radius: 8px;
+ -webkit-box-shadow: 0px 3px 5px #A29F9F;
+ -moz-box-shadow: 0px 3px 5px #A29F9F;
+ box-shadow: 0 3px 5px #A29F9F;
+ margin-right: 10px;
+ margin-bottom: 5px;
+}
+#block-subscription .form-input-text {
+ border-radius: 10px;
+ height: 30px; /*высота поля*/
+ box-shadow: 0 3px 5px #A29F9F;
+ width: 251px;
+ font-size: 15px;
+ font-family: Arial,Helvetica,sans-serif;
+ color: #c0c0c0;
+    background: #ffffff;
+ border: none;
+ margin: 0;
+ margin-right: 10px;
+}
+#block-subscription .subscribe-button {
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+float: left;
+}
+#block-subscription .bg-input {
+ background: url("images/bg-newsletter-input.png") 0 0 no-repeat;
+}
+#block-subscription .subscription-form {
+ overflow: hidden;
+}
+.bound-top-navigation {
+ background: #f2f2f2;
+}
+#top-navigation {
+ height: 14px; /*уменьшили высоту блока, на суммарный размер отступов*/
+ background: #f2f2f2;
+ padding: 7px 0; /*Добавляем отступы сверху и снизу, убираем отступы справа и
+слева*/
+ font-size: 12px;
+ color: #060606;
+}
+#block-date {
+ float: left; /*Блок с датой размещаем слева*/
+}
+#block-nav-menu {
+ float: right; /*Блок с меню размещаем справа*/
+}
+.liF {
+    margin-bottom: 10px;
+    list-style-image: url(dkvbgncSleY.jpg);
+}
+.liT {
+    margin-bottom: 10px;
+    list-style-image: url(twi_icon.png);
+}
+.liL {
+    list-style-image: url(link_icon.png);
+}
+.WU {
+    margin-left: -20px;
+}
+.FU {
+    margin-left: -10px;
+}
+.ADR {
+    margin-left: -40px;
+}
+.linkmail {
+    color: green;
+}
+.button2 {
+padding: 8px 25px 10px 28px;
+height: 17px;
+float: right;
+font-weight: bold;
+font-size: 14px;
+background: #fff 0 0 repeat-x;
+border-radius: 8px;
+-webkit-box-shadow: 0px 3px 5px #A29F9F;
+-moz-box-shadow: 0px 3px 5px #A29F9F;
+box-shadow: 0 3px 5px #A29F9F;
+margin-right: 10px;
+margin-top: -10px;
+}
+.block-offers2 {
+width: 600px;
+height: 400px;
+background: #f2f2f2;
+float: left;
+}
