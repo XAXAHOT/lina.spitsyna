@@ -1,7 +1,7 @@
 body { margin: 0;}
 .wrapper {
- width: 920px; /*çàäàåì ôèêñèðîâàííóþ øèðèíó êîíòåíòó*/
- margin: 0 auto; /*âûðàâíèâàåì áëîê ïî öåíòðó ñòðàíèöû*/
+ width: 920px;
+ margin: 0 auto;
 }
 /*TOP NAVIGATION*/
 .bound-top-navigation {
@@ -43,14 +43,13 @@ align-content: :left;
  width: 320px;
  height: 400px;
  background: #f2f2f2;
- float: left; /*äåëàåì áëîê ïëàâóþùèì è ïðèæèìàåì âëåâî, ñëåäóþùèé ÏËÀÂÓÞÙÈÉ
-áëîê ïðèæìåòñÿ ê íåìó*/
+ float: left;
 }
 #block-offers {
  width: 600px;
  height: 400px;
  background: #f2f2f2;
- float: left; /*íåîáõîäèìî óêàçàòü, òàê êàê ýòîò áëîê ÿâëÿåòñÿ ñëåäóþùèì çà ïëàâàþùèì (èíà÷å îí ïðèæìåòñÿ ê ðîäèòåëüñêîìó ýëåìåíòó)*/
+ float: left;
 }
 /*FOOTER*/
 .bound-footer {
@@ -91,18 +90,17 @@ align-content: :left;
  background: #f2f2f2;
 }
 #top-navigation {
- height: 14px; /*уменьшили высоту блока, на суммарный размер отступов*/
+ height: 14px;
  background: #f2f2f2;
- padding: 7px 0; /*Добавляем отступы сверху и снизу, убираем отступы справа и
-слева*/
+ padding: 7px 0;
  font-size: 12px;
  color: #060606;
 }
 #block-date {
- float: left; /*Блок с датой размещаем слева*/
+ float: left;
 }
 #block-nav-menu {
- float: right; /*Блок с меню размещаем справа*/
+ float: right;
 }
 #block-nav-menu ul{
 margin: 0;
@@ -112,17 +110,15 @@ padding: 0;
  float: left;
  list-style: none;
  padding: 0 7px;
- border-right: solid 1px #060606; /*создаем границу справа*/
+ border-right: solid 1px #060606;
 }
 #block-nav-menu li:last-child{
- border-right: none; /*Убираем границу справа у последнего элемента*/
+ border-right: none;
 }
-/*LOGO AND MAIN MENU*/
 logo-main-menu {
  width: 980px;
- padding-top: 19px; /*Зададим отступ сверху, чтобы логотип размещался по центру
-блока*/
- height: 83px; /*соответственно уменьшим высоту блока (так как добавили отступ)*/
+ padding-top: 19px;
+ height: 83px;
  background: #fff;
 }
 #logo {
@@ -136,8 +132,7 @@ logo-main-menu {
  height: 83px;
 }
 #main-menu ul {
- margin-top: 39px; /*необходимо добавить отступ сверху, чтобы прижать меню к
-нижнему блоку*/
+ margin-top: 39px;
  overflow: hidden;
  padding: 0;
  margin-bottom: 0;
@@ -145,29 +140,23 @@ logo-main-menu {
 #main-menu ul li{
  float: left;
  list-style: none;
- background: #f2f2f2; /*задаем серый цвет для всех элементов списка*/
- padding: 24px 32px 21px 32px; /*добавляем внутренние отступы, как показано на
-рисунке Рисунок 7*/
+ background: #f2f2f2;
+ padding: 24px 32px 21px 32px;
  margin-right: 1px;
- /*Добавляем закругления на углах блока*/
  border-top-left-radius: 20px;
  border-top-right-radius: 20px;
 }
-#main-menu ul li:hover,
-#main-menu ul li.active-element {
+#main-menu ul li:hover {
  background: #92b800;
  color: #fff;
 }
-/*NEWS*/
 #block-news {
  width: 320px;
  height: 400px;
- float: left; /*делаем блок плавающим и прижимаем влево, следующий ПЛАВУЮЩИЙ
-блок прижмется к нему*/
+ float: left;
 }
 #block-news .news {
  overflow: hidden;
-
  margin-top: 15px;
 }
 #block-news .news-image {
@@ -234,18 +223,17 @@ float: left;
  background: #f2f2f2;
 }
 #top-navigation {
- height: 14px; /*уменьшили высоту блока, на суммарный размер отступов*/
+ height: 14px;
  background: #f2f2f2;
- padding: 7px 0; /*Добавляем отступы сверху и снизу, убираем отступы справа и
-слева*/
+ padding: 7px 0;
  font-size: 12px;
  color: #060606;
 }
 #block-date {
- float: left; /*Блок с датой размещаем слева*/
+ float: left;
 }
 #block-nav-menu {
- float: right; /*Блок с меню размещаем справа*/
+ float: right;
 }
 .liF {
     margin-bottom: 10px;
